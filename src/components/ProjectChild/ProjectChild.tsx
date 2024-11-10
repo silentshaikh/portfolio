@@ -32,7 +32,7 @@ function ProjectChild() {
       })}
     </div>
     <div className="flex flex-col">
-      <h1 className='text-teal-300 font-bold text-4xl pb-6 pt-5 underline max-[1070px]:px-2'>REACT JS</h1>
+      <h1 className='text-teal-300 font-bold text-4xl pb-6 pt-5 underline max-[1070px]:px-2'>NEXT JS</h1>
     </div>
     <div className='flex justify-center items-center flex-wrap'>
       {projectApiReact.map((element,index) => {
