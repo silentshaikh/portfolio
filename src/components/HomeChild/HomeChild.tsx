@@ -1,16 +1,16 @@
 'use client';
 import React, { useEffect, useRef } from 'react'
-import { FaInstagram } from "react-icons/fa6";
-import { LuFacebook } from "react-icons/lu";
+// import { FaInstagram } from "react-icons/fa6";
+// import { LuFacebook } from "react-icons/lu";
 import { FaLinkedin } from "react-icons/fa";
 import Image from 'next/image';
 // import moizCv from '../moiz.pdf'
 import Typed from 'typed.js';
 import Link from 'next/link';
 function HomeChild() {
-    let typRef = useRef(null);
+    const typRef = useRef(null);
     useEffect(() => {
-        let typed = new Typed(typRef.current, {
+        const typed = new Typed(typRef.current, {
     strings: ["FRONT-END-DEVELOPER"],
     typeSpeed: 50,
     backSpeed:70,
