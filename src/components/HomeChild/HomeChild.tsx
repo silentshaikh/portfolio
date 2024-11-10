@@ -6,6 +6,7 @@ import { FaLinkedin } from "react-icons/fa";
 import Image from 'next/image';
 // import moizCv from '../moiz.pdf'
 import Typed from 'typed.js';
+import Link from 'next/link';
 function HomeChild() {
     let typRef = useRef(null);
     useEffect(() => {
@@ -35,11 +36,13 @@ return () => {
         <h3 className='text-4xl text-teal-400 font-bold pb-4 max-[1070px]:text-2xl' ref={typRef}></h3>
         {/* <h3 className='text-4xl text-teal-400 font-bold pb-4 max-[1070px]:text-2xl'>Front-End-Developer</h3> */}
         </div>
-        <a  target='_blank'><button className='shadow py-3 px-7 hover:text-teal-300 hover:shadow-inshad'>Download CV</button></a>
+        <Link href={'/cv/White and Green Simple Student CV Resume.pdf'}><button className='shadow py-3 px-7 hover:text-teal-300 hover:shadow-inshad'>Download CV</button></Link>
         <div className="flex mt-10 shadow py-3 px-8">
-        <LuFacebook className='text-[2.6rem] text-teal-300 shadow ml-2 p-2 hover:shadow-inshad'/>
-        <FaInstagram className='text-[2.6rem] text-teal-300 shadow ml-2 p-2 hover:shadow-inshad'/>
+        {/* <LuFacebook className='text-[2.6rem] text-teal-300 shadow ml-2 p-2 hover:shadow-inshad'/> */}
+        {/* <FaInstagram className='text-[2.6rem] text-teal-300 shadow ml-2 p-2 hover:shadow-inshad'/> */}
+        <Link href='https://www.linkedin.com/in/abdul-moiz-644401241/' >
         <FaLinkedin className='text-[2.6rem] text-teal-300 shadow ml-2 p-2 hover:shadow-inshad'/>
+        </Link>
         </div>
     </section>
   )
