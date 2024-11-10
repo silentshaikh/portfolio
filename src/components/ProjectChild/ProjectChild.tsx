@@ -1,4 +1,5 @@
 import { projectApiCss, projectApiJs, projectApiReact, projectApiTailReact } from '@/utils/helper';
+import Link from 'next/link';
 import React from 'react'
 
 function ProjectChild() {
@@ -51,7 +52,7 @@ function ProjectChild() {
         return(
           <div className="p-20 shadow w-[30vw] h-[35vh] mb-3 m-auto border max-[1070px]:w-[45vw] max-[660px]:w-[48vw] max-[586px]:w-[80vw]" key={index}>
         <h1 className='text-3xl font-bold pb-2'>{element.head}</h1>
-        <a href={element.lnl} target='_blank' className='text-teal-400'>Click Here</a>
+        <Link href={element.lnl} target='_blank' className='text-teal-400'>Click Here</Link>
       </div>
         );
       })}
