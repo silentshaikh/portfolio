@@ -7,10 +7,6 @@ export const projectApiCss = [
 ];
 export const projectApiJs = [
     {
-        lnl:'https://silentshaikh.github.io/calculator-1/',
-        head:'Calculator'
-    },
-    {
         lnl:'https://silentshaikh.github.io/billGenerator/',
         head:'Bill Generator'
     },
@@ -49,6 +45,18 @@ export const projectApiJs = [
 ];
 export const projectApiReact = [
     {
+        lnl:'https://calculator-next-rust.vercel.app/',
+        head:'Calculator'
+    },
+    {
+        lnl:'https://countdown-next-ashen.vercel.app/',
+        head:'Count Down'
+    },
+    {
+        lnl:'https://bmicalculator-two-chi.vercel.app/',
+        head:'BMI Calculator'
+    },
+    {
         lnl:'https://nextmilestone1-theta.vercel.app/',
         head:'Hello World'
     },
@@ -62,8 +70,21 @@ export const projectApiReact = [
     },
     {
         lnl:'https://nextjsportfoliocss.vercel.app/',
-        head:'Profolio Mini'
+        head:'Portfolio Mini'
     },
+    {
+        lnl:'https://clothcraft.vercel.app/',
+        head:'Cloth Craft'
+    },
+    {
+        lnl:'https://codeese.vercel.app/',
+        head:'Codeese Blog'
+    },
+    {
+        lnl:'https://fabrichaven.vercel.app/',
+        head:'Fabric Haven'
+    },
+
 ];
 export const projectApiTailReact = [
     {
