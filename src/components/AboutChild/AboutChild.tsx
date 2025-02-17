@@ -6,7 +6,14 @@ function AboutChild() {
       <div className="flex justify-center items-center flex-wrap">
       <div className="flex justify-center items-start flex-col max-[671px]:pt-16">
       <h1 className='text-teal-300 text-3xl font-bold pb-4 '>Assalam-O-Alikum,</h1>
-        <p className='max-w-lg '>I Am <strong className='text-teal-300'>Shaikh Abdul Moiz</strong>, A Fresh Front -End - Developer I Am Passionate About My Work And Specialize In Creative Designs. I Love To Make Modern And Trending Designs That Will Match The Latest Trend. I Always Focus On Client Satisfaction. Feel Free To Discuss Your Next Project With Me Thanks</p>
+        <p className='max-w-lg '>I am <strong className='text-teal-300'>Shaikh Abdul Moiz</strong>,a fresh front-end developer. I can
+build cool websites using Next.js and also using React.js and
+integrate typescript into these tools. It’s my passion to not
+only develop websites for clients but also create a good user
+experience for clients. It’s my mission to not compromise in
+User Interface and User Experience. I have developed some
+websites like E-commerce using Next.js which you can check
+in my Portfolio.</p>
       </div>
         <div className="flex ">
           <Image className='w-72 rounded-full shadow-inshad p-3 max-[799px]:mt-3' 
